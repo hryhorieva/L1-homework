@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <h1>
-            <a href="about:blank">
-                Smashing HTML5!<br>
+            <a href="about:blank" class="no-underline">
+                <span class="first-line">Smashing HTML5!</span><br>
                 HTML5 in the year <del>2022</del><ins> 2015</ins></a>
         </h1>
     </header>
@@ -24,7 +26,7 @@
 
         <article>
             <h2>Featured Article</h2>
-            <h3><a href=" about:blank">HTML5 in Beetroot Academy!</a></h3>
+            <h3><a href=" about:blank" class="black-link">HTML5 in Beetroot Academy!</a></h3>
             <p>Discover how to use Graceful Degradation and Progressive Enhancement techniques to achieve an
                 outstanding, cross-browser <a href="about:blank">HTML5</a> and <a href="
                         about:blank">CSS3</a>
@@ -62,40 +64,42 @@
         <br>
         <br>
 
-        <nav>
-            <h3>blogroll</h3>
-            <p>
+
+        <div class="blogroll">
+            <h2>blogroll</h2>
+            <nav>
                 <ul>
-                    <li>HTML5 Doctor</li>
-                    <li>HTML5 Spec (working draft)</li>
-                    <li>Beetroot Academy</li>
-                    <li>W3C</li>
-                    <li>Wordpress</li>
-                    <li>Wikipedia</li>
+                    <li><a href="x">HTML5 Doctor</a></li>
+                    <li><a href="x">HTML5 Spec (working draft)</a></li>
+                    <li><a href="x">Beetroot Academy</a></li>
+                    <li><a href="x">W3C</a></li>
+                    <li><a href="x">Wordpress</a></li>
+                    <li><a href="x">Wikipedia</a></li>
                 </ul>
-            </p>
-        </nav>
+            </nav>
+        </div>
+
     </main>
 
     <br>
     <br>
 
     <footer>
-        <table width="100%" cellspacing="0" cellpadding="5">
-            <td>
-                <tr>
+        <table>
+            <tr>
+                <td>
                     <p>Beetroot Academy</p>
                     <p>Amazing Magazine</p>
-                </tr>
-            </td>
-            <td>
-                <tr>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <p>Beetroot Magazine is a website and blog that offers resources and advice to web developers and
                         web
                         designers.
                     </p>
-                </tr>
-            </td>
+                </td>
+            </tr>
         </table>
         <p align="right"> 2015 <a href="about:blank">Beetroot Academy</a></p>
 
